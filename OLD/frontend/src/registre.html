@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVC</title>
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <header class="bg-dark p-3">
+        <ul class="container nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="../">Lista de
+                    Pagamentos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white fw-bold border-bottom" href="#">Cadastro de pagamento</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class="container mt-5">
+            <form class="p-4 bg-light border rounded" id="myForm">
+                <!-- Seleção de Usuário -->
+                <div class="mb-3">
+                    <label for="users" class="form-label">Usuário</label>
+                    <select name="user_id" id="users" class="form-select">
+                        <option selected>Escolha uma opção</option>
+                    </select>
+                </div>
+
+                <!-- Seleção do Tipo de Pagamento -->
+                <div class="mb-3">
+                    <label for="type" class="form-label">Tipo de Pagamento</label>
+                    <select name="type" id="type" class="form-select">
+                        <option selected>Escolha uma opção</option>
+                        <option value="empréstimo">Empréstimo</option>
+                        <option value="depósito">Depósito</option>
+                        <option value="transferência">Transferência</option>
+                    </select>
+                </div>
+
+                <!-- Seleção do Status -->
+                <div class="mb-3">
+                    <label for="status" class="form-label">Status</label>
+                    <select name="status" id="status" class="form-select">
+                        <option selected>Escolha uma opção</option>
+                        <option value="concluído">Concluído</option>
+                        <option value="pendente">Pendente</option>
+                    </select>
+                </div>
+
+                <!-- Valor -->
+                <div class="mb-3">
+                    <label for="value-payment" class="form-label">Valor</label>
+                    <input type="number" class="form-control" name="value" id="value-payment"
+                        placeholder="Digite o valor">
+                </div>
+
+                <!-- Data -->
+                <div class="mb-3">
+                    <label for="date" class="form-label">Data</label>
+                    <input type="date" class="form-control" name="date" id="date">
+                </div>
+
+                <!-- Botão de Cadastro -->
+                <div class="text-center">
+                    <button type="submit" class="btn btn-dark w-100" id="btnRegistre">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+
+    <!-- Bootstrap cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="registre.js"></script>
+</body>
+
+</html>

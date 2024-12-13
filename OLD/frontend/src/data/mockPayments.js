@@ -1,0 +1,17 @@
+export const payments = [
+    { id: 1, userId: 1, date: '2024-12-01', type: 'empréstimo', value: 300, status: 'concluído' },
+    { id: 2, userId: 2, date: '2024-12-02', type: 'depósito', value: 150, status: 'pendente' },
+    { id: 3, userId: 3, date: '2024-12-03', type: 'transferência', value: 500, status: 'concluído' },
+    { id: 4, userId: 4, date: '2024-12-04', type: 'pagamento', value: 200, status: 'concluído' },
+    { id: 5, userId: 5, date: '2024-12-05', type: 'empréstimo', value: 400, status: 'pendente' },
+    { id: 6, userId: 1, date: '2024-12-06', type: 'pagamento', value: 100, status: 'concluído' },
+    { id: 7, userId: 2, date: '2024-12-07', type: 'depósito', value: 250, status: 'pendente' },
+    { id: 8, userId: 3, date: '2024-12-08', type: 'empréstimo', value: 300, status: 'concluído' },
+    { id: 9, userId: 4, date: '2024-12-09', type: 'transferência', value: 450, status: 'pendente' },
+    { id: 10, userId: 5, date: '2024-12-10', type: 'depósito', value: 500, status: 'concluído' },
+    { id: 11, userId: 1, date: '2024-12-11', type: 'pagamento', value: 120, status: 'concluído' },
+    { id: 12, userId: 2, date: '2024-12-12', type: 'transferência', value: 600, status: 'pendente' },
+    { id: 13, userId: 3, date: '2024-12-13', type: 'empréstimo', value: 700, status: 'concluído' },
+    { id: 14, userId: 4, date: '2024-12-14', type: 'depósito', value: 200, status: 'concluído' },
+    { id: 15, userId: 5, date: '2024-12-15', type: 'pagamento', value: 100, status: 'pendente' },
+];
